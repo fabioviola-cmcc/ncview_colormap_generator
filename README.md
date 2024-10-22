@@ -32,6 +32,11 @@ And an example result is the following:
 
 This is the plot of the "Elevations calculated from the TBASE 5-minute", a free NetCDF file available on the "Joint Institute for the Study of the Atmosphere and Ocean" website.
 
+### Where to find the colour names?
+
+Colours are taken from `matplotlib` library, so just have a look at [this page](https://matplotlib.org/stable/gallery/color/named_colors.html).
+
+
 ## Installing the new colormap
 
 `ncview` looks for colormaps in different places. Generally, it looks in `/usr/share/ncview` for system-wide colormap (`.ncmap`) files, but also examines the user's environmental variable `NCVIEWBASE` for the name of a directory which contains additional colormap files. If that is not defined, then colormaps are sought in the user's home directory, and in the directory `ncview` was run from. This information is available in `ncview` man page. Anyway, just copy the new colormap in the system wide folder and you're done. In my GNU/Linux system:
