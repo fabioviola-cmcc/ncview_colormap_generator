@@ -22,7 +22,7 @@ An example of invocation is:
 
 ```
 $ python cmapGen.py -c "midnightblue,steelblue" -c "steelblue,paleturquoise" -c "paleturquoise,azure" -c "darkolivegreen,yellowgreen" -c "yellowgreen,palegoldenrod" -c "palegoldenrod,peru" -c "peru,white" --percentages=25,20,5,10,20,15,5 --outputfile=myterrain.ncmap
-``
+```
 
 And an example result is the following:
 
