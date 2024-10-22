@@ -27,7 +27,7 @@ $ python cmapGen.py -c "midnightblue,steelblue" -c "steelblue,paleturquoise" -c 
 And an example result is the following:
 
 <p align="center">
-<img src="images/elevation.png.png" width="40%">
+<img src="images/elevation.png" width="40%">
 </p>
 
 This is the plot of the "Elevations calculated from the TBASE 5-minute", a free NetCDF file available on the "Joint Institute for the Study of the Atmosphere and Ocean" website.
